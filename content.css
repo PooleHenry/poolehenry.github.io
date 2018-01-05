@@ -6,6 +6,13 @@ made by PooleHenry, 2017
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {	
-	font-family: 'Roboto', sans-serif;
+	background-color: lightblue;
 	}
 
+p {
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Linux Libertine, Georgia, Times, serif;
+}
