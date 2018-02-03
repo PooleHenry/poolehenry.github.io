@@ -10,13 +10,17 @@ made by PooleHenry, 2017
 }
 
 * {	
-	}
+}
 
 p {
     font-family: verdana, arial, helvetica, sans-serif;
+    padding-left: 3%;
 }
 
 h1 {
     font-family: openFontBlack, Georgia, Times, serif;
-    font-size: 32pt
+    font-size: 32pt;
+    padding-left: 3%;
+    padding-top: 1%;
 }
+
