@@ -3,10 +3,13 @@ code for poolehenry.github.io
 made by PooleHenry, 2017
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: openFontBlack;
+    src: url(openFontBlack.woff);
+    font-weight:400;
+}
 
 * {	
-	background-color: lightblue;
 	}
 
 p {
@@ -14,5 +17,6 @@ p {
 }
 
 h1 {
-    font-family: Linux Libertine, Georgia, Times, serif;
+    font-family: openFontBlack, Georgia, Times, serif;
+    font-size: 32pt
 }
