@@ -3,23 +3,28 @@ code for poolehenry.github.io
 made by PooleHenry, 2017
 */
 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 @font-face {
-    font-family: openFontBlack;
-    src: url(openFontBlack.woff);
-    font-weight:400;
+    font-family: futurabold;
+    src: url(futurabold.woff);
+    font-weight:600;
 }
 
 * {	
 }
 
 p {
-    font-family: verdana, arial, helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     padding-left: 3%;
 }
 
 h1 {
-    font-family: openFontBlack, Georgia, Times, serif;
-    font-size: 32pt;
+    font-family: futurabold;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0F1F6B;
     padding-left: 3%;
     padding-top: 1%;
 }
