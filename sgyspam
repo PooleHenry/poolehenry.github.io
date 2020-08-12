@@ -1,0 +1,9 @@
+<marquee>Hello!! And greetings</marquee>
+
+<marquee direction="up">My name is HENRY</marquee>
+
+<marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
+  <marquee behavior="alternate">
+    MInecraft is good
+  </marquee>
+</marquee>
