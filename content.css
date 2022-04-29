@@ -3,24 +3,16 @@ code for poolehenry.github.io
 made by PooleHenry, 2017
 */
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-
-* {	
-}
-
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: sans-serif;
     padding-left: 3%;
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    color: #0F1F6B;
+    color: #006c04;
     padding-left: 3%;
     padding-top: 1%;
 }
-
