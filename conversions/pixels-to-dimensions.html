@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+    <head>
+        <title>Pixel Count to Dimensions Converter</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Go from a total number of pixels to specific image dimensions, based on an aspect ratio."/>
+        <link rel="stylesheet" type="text/css" href="pixels.css">
+        <script src="dimensionFinder.js" charset="utf-8"></script>
+    </head>
+    
+    <body>
+        <h1>Pixel Count to Dimensions Converter</h1>
+        <p>Go from a total number of pixels to specific image dimensions, based on an aspect ratio.</p>
+        
+        <span>Number of pixels:</span>
+        <input type="text" class="pixelBox" id="pixelCount"><br>
+        
+        <span>Aspect Ratio (width to height):</span>
+        <input type="text" class="aspectTinyBox" id="ratio1">
+        <span>:</span>
+        <input type="text" class="aspectTinyBox" id="ratio2"><br><br>
+
+
+        <button onclick="buttonPushed('image')">Convert!</button>
+
+        <!-- Where the results will go-->
+        <p>Nearest whole dimensions: </p><div id="results"></div>
+
+    </body>
+
+</hmtl>

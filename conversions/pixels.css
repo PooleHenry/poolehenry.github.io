@@ -1,0 +1,10 @@
+/* input box for # of pixels */
+.pixelBox {
+    width:60px;
+}
+
+
+/* The tiny boxes for _:_ aspect ratio */
+.aspectTinyBox {
+    width:10px;
+}
